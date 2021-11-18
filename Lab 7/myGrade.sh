@@ -50,8 +50,7 @@ then
 elif [ $grade -ge 50 ] && [ $grade -le 52 ] #grade between 50 and 52
 then
 	letterGrade="D-"
-elif [ $grade -ge 0 ] && [ $grade -le 49 ] #grade between 0 and 49
-then
+else [ $grade -ge 0 ] && [ $grade -le 49 ] #grade between 0 and 49
 	letterGrade="F"
 fi #end if
 
